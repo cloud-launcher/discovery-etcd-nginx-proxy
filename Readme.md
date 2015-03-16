@@ -1,6 +1,6 @@
 ## cloudlauncher/discovery-etcd-nginx-proxy
 
-https://discovery.etcd.io [does not yet support CORS](). This proxies to the site and results are returned with `Access-Control-Allow-Origin: *`.
+https://discovery.etcd.io [does not yet support CORS](https://github.com/coreos/discovery.etcd.io/issues/12). This proxies to the site and results are returned with `Access-Control-Allow-Origin: *`.
 
 
 `docker run --rm -p 80:80 cloudlauncher/discovery-etcd-nginx-proxy`
